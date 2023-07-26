@@ -20,7 +20,7 @@ const Overview = () => {
                 </div>
 
                 <div className="columns is-centered has-text-centered is-vcentered is-hidden-desktop">
-                    <div className="column is-4">
+                    <div className="column">
                         <img src={heroImage} alt="Logo" style={imageStyleMobile}/>
                     </div>
                     <div className="column">
