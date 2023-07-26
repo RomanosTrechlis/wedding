@@ -7905,3 +7905,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     background-color: #E8E8E8; }
     .top-link:hover svg {
       fill: #000000; }
+
+.is-sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #b49cd0; }
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.is-sticky + .content {
+  padding-top: 60px; }

@@ -2,7 +2,7 @@ import heroImage from "../assets/hero.jpg";
 
 const Overview = () => {
     return (<>
-        <section id="overview" className="mt-6">
+        <section id="overview" className="my-6">
             <div className="container">
                 <div className="columns is-vcentered">
                     <div className="column">
