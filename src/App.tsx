@@ -29,7 +29,7 @@ function App() {
 
             sections.forEach((section: any) => {
                 const sectionTop = section.offsetTop;
-                if (pageYOffset >= sectionTop -200) {
+                if (pageYOffset >= sectionTop -250) {
                     current = section.getAttribute("id") || "";
                 }
             });
